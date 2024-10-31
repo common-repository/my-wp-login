@@ -1,0 +1,24 @@
+body.login {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    background-image: none;
+}
+
+.mywplogin-second-section, .mywplogin-firt-section {
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    body.login {
+        display: block;
+    }
+    .mywplogin-firt-section {
+        display: none;
+    }
+    .mywplogin-second-section {
+        width: 100%;
+    }
+}

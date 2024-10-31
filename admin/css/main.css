@@ -1,0 +1,30 @@
+h1.mywplogin-title {
+    padding-bottom: 15px;
+}
+.mywplogin-wrap {
+    box-shadow: 0 1px 3px rgba(0,0,0,.13);
+    -moz-box-shadow:0 1px 3px rgba(0,0,0,.13);
+    -o-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+    background-color:#fff;
+    min-width: 255px;
+    max-width: 840px;
+}
+.mywplogin-form-elements h2 {
+    font-size: 18px;
+    font-weight: normal;
+    cursor: default;
+    padding:15px;
+    background-color: #F9F9F9;
+}
+.mywplogin-form-elements table.form-table tr{
+    border-bottom: 1px dotted #E5E5E5;
+}
+
+.mywplogin-form-elements table.form-table th[scope="row"] {
+     padding-left: 20px;
+     width: 40%;
+ }
+.mywplogin-form-elements p.submit {
+     margin-left: 20px;
+ }
